@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');</style>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="funciones.js"></script>
+  
+    <title>Ahorcado-Juego</title>
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            <h1><img src="img/logo.png" alt="Alura"></h1>
+        </div>
+
+        <h2>OBTEN UNA PALABRA</h2>
+
+        <div class="audio">
+            <audio controls autoplay>
+            <source src="sonido/MúsicaDeTerror.mp3" type="audio/mp3">
+            </audio>
+        </div>        
+
+    </header>
+    <main>
+
+        <img id="imagen" src="img/img0.png" alt="Ahorcado">
+        <div>
+            <p id="palabra_a_adivinar"></p>
+
+            <p id="resultado"></p>
+            
+        </div>
+    
+    </main>
+
+        <section class="teclado">
+
+        <div id="letras">
+            <button>a</button>
+            <button>b</button>
+            <button>c</button>
+            <button>d</button>
+            <button>e</button>
+            <button>f</button>
+            <button>g</button>
+            <button>h</button>
+            <button>i</button>
+            <button>j</button>
+            <button>k</button>
+            <button>l</button>
+            <button>m</button>
+            <button>n</button>
+            <button>ñ</button>
+            <button>o</button>
+            <button>p</button>
+            <button>q</button>
+            <button>r</button>
+            <button>s</button>
+            <button>t</button>
+            <button>u</button>
+            <button>v</button>
+            <button>w</button>
+            <button>x</button>
+            <button>y</button>
+            <button>z</button>
+        </div>
+
+        <div>
+       
+            <button class="boton-obtenerPalabra" id="jugar">Obtener palabra</button>
+
+            <a href="principal.html">
+                <button class="boton-volver">Volver</button> 
+                </a>
+        
+        </div>
+
+    </section>
+  
+    <script src="juego.js"></script>
+
+    <footer>
+
+        <div class="redes">
+ 
+            <a href="https://www.linkedin.com/in/sebastian-martin-tolaba-18bb44182/"><img src="img/Linkedin.jpg" class="linkedin"/></a>
+            <a href="https://www.github.com/Martin-91"><img src="img/githubBlanco.png" class="github"/></a>
+        
+        </div>
+
+        <p class="copyright">&copy Sebastian Martin Tolaba</p>  
+    
+    </footer>
+
+</body>
+
+</html>
